@@ -1,0 +1,73 @@
+body {
+	font-size: 50px;
+	font-family: "Tahoma";
+	min-width: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+sup {
+	font-size: 30px;
+}
+.container {
+	display: block;
+	margin: 10px 5px;
+}
+
+
+
+#input-field {
+	text-align: right;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+}
+
+.keyboard {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.buttons-row {
+	font-size: 0;
+}
+
+.calc-button {	
+	display: inline-block;
+	width: 25%;
+	text-align:center;
+	border: none;
+	padding:0;
+	margin: 0;
+	font-size: 50px;
+	outline: none;
+
+}
+
+.calc-button:hover{
+	background-color: lightgrey;
+}
+
+@media screen and (min-width: 650px) {
+	.calc-button {
+		font-size: 70px;
+	}
+
+	#input-field {
+		line-height: 90px;
+		font-size: 70px;
+		height: 90px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.calc-button {
+		font-size: 90px;
+	}
+
+	#input-field {
+		line-height: 110px;
+		font-size: 90px;
+		height: 110px;
+	}
+}
